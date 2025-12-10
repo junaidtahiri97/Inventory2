@@ -1,7 +1,16 @@
 {
-  "name": "inventory",
+  "name": "rcavalli-despatch",
   "version": "1.0.0",
+  "description": "Order and delivery management system using Supabase",
+  "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "node server.js"
+  },
+  "keywords": ["supabase", "order", "delivery", "frontend", "express"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "^2.36.0"
   }
 }
